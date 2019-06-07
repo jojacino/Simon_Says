@@ -1,0 +1,249 @@
+body {
+    background-color: #333;
+}
+
+.row, .column {
+    display: flex;
+    border: solid;
+    height: 200px;
+    box-shadow: 0 0 20px 5px #666 inset;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.simon-board {
+    background-color: #777;
+    border: 7px solid #111;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0 0 50px #222 inset;
+    -webkit-box-shadow: 0 0 50px #222 inset;
+    -moz-box-shadow: 0 0 50px #222 inset;
+}
+
+.top {
+    padding: 15px;
+    border-radius: 500px 500px 50px 50px;
+}
+
+.console-wrapper: {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.console {
+    position: relative;
+    background-color: #666;
+    border: 5px solid #222;
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    bottom: 390px;
+    font-size: 2em;
+    padding: 15px;
+    box-shadow: 0 0 30px #666 inset;
+    -webkit-box-shadow: 0 0 30px #666 inset;
+    -moz-box-shadow: 0 0 30px #666 inset;
+}
+
+.console-button {
+    position: relative;
+    padding: 6px;
+    border: ridge gray;
+    border-radius: 15px;
+    background-color: #AAA;
+    height: 50px;
+    width: 200px;
+    left: 85px;
+}
+
+    .console-button:hover {
+        border: ridge lightgray;
+        cursor: pointer;
+    }
+
+    .console-button:active {
+        background-color: #CCC;
+    }
+
+.console-btn-light {
+    background-color: #EEE;
+}
+
+.console-btn-dim {
+    background-color: #AAA;
+}
+
+.reset-button {
+    left: 42px;
+}
+
+.strict-button {
+    left: 130px;
+}
+/**/
+.bottom {
+    padding: 15px;
+    border-radius: 50px 50px 500px 500px;
+}
+
+.game-button {
+    border: solid #222;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 0 0 50px #666 inset;
+    -webkit-box-shadow: 0 0 50px #666 inset;
+    -moz-box-shadow: 0 0 50px #666 inset;
+}
+
+    .game-button:hover {
+        border-color: #444;
+        cursor: pointer;
+    }
+
+/**/
+.logobox {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.game-lable {
+    font-family: Impact;
+    text-align: center;
+    font-size: 0.65em;
+    margin: auto 8px;
+    text-shadow: 0 0 5px #DDD;
+}
+/**/
+.blue-button {
+    /**/ border-radius: 250% 10% 50% 10%; /**/
+    background-color: darkblue;
+    position: relative;
+    top: 35px;
+    right: 112px;
+}
+
+    .blue-button:active {
+        background-color: blue;
+    }
+/**/
+.green-button {
+    border-radius: 10% 250% 10% 50%;
+    background-color: darkgreen;
+    position: relative;
+    top: -171px;
+    right: -112px;
+}
+
+    .green-button:active {
+        background-color: green;
+    }
+/**/
+.gold-button {
+    border-radius: 10% 50% 10% 250%;
+    background-color: goldenrod;
+    position: relative;
+    top: -152px;
+    right: 112px;
+}
+
+    .gold-button:active {
+        background-color: gold;
+    }
+/**/
+.red-button {
+    border-radius: 50% 10% 250% 10%;
+    background-color: darkred;
+    position: relative;
+    top: -358px;
+    right: -111px;
+}
+
+    .red-button:active {
+        background-color: red;
+    }
+/**/
+.console-text {
+    position: absolute;
+    border: ridge gray;
+    display: flex;
+    font-size: 0.6em;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 25px;
+    width: 150px;
+}
+
+.notification {
+    top: 28px;
+    left: 50px;
+}
+
+.step-count {
+    width: 50px;
+    top: 175px;
+    left: 101px;
+}
+
+.lable {
+    font-size: 19px;
+    position: relative;
+}
+
+.notification-lable {
+    right: 40px;
+    bottom: 85px;
+}
+
+.count-lable {
+    right: 111px;
+    top: 62px;
+}
+/**/
+.ingame-msg {
+    background-color: white;
+    color: black;
+    font-size: 4em;
+    opacity: 0;
+    position: absolute;
+    top: 20px;
+    height: 250px;
+    width: 400px;
+    border: solid gray;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    align-text: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 550px) {
+    .console {
+        position: absolute;
+        top: 660px;
+        left: 131px;
+    }
+}
