@@ -1,2 +1,6 @@
 # Simon_Says
 Old school Simon Says video game modeled after the original game
+_________________________________________________________________
+_________________________________________________________________
+
+To begin run index.html in browser
