@@ -3,4 +3,8 @@ Old school Simon Says video game modeled after the original game
 _________________________________________________________________
 _________________________________________________________________
 
-To begin run index.html in browser
+Click link to view
+
+https://gallant-mirzakhani-f0a7fc.netlify.app
+
+![](https://i.ibb.co/Zzg5fy5/t3.png)
