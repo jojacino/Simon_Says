@@ -125,8 +125,7 @@ body {
 .game-lable {
     font-family: Impact;
     text-align: center;
-    font-size: 0.65em;
-    margin: auto 8px;
+    font-size: 20pt;
     text-shadow: 0 0 5px #DDD;
 }
 /**/
